@@ -22,7 +22,7 @@ def fetch_and_delete_done_tasks():
     now = datetime.now()
 
     # 원하는 시간 범위 체크 (예: 오전 2시 33분에만 실행)
-    if (3 <= now.hour < 4):
+    if (18 <= now.hour < 20):
         print("Task executed at:", now)
 
         # 여기에서 실제 작업 로직을 수행합니다.
